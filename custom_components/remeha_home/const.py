@@ -104,6 +104,12 @@ CLIMATE_ZONE_SENSOR_TYPES = [
         native_unit_of_measurement=UnitOfTemperature.CELSIUS,
         device_class=SensorDeviceClass.TEMPERATURE,
     ),
+    SensorEntityDescription(
+        key="roomTemperature",
+        name="Current Room Temperature",
+        native_unit_of_measurement=UnitOfTemperature.CELSIUS,
+        device_class=SensorDeviceClass.TEMPERATURE,
+    ),
 ]
 
 HOT_WATER_ZONE_SENSOR_TYPES = [
